@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #1A374D;
+}
+
+h1 {
+  margin: 50px auto 0px auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.3125rem;
+  color: #1A374D;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  list-style: inside;
+}
+
+a {
+  color: #FFE162;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 20px auto;
+  /*
+  border-style: solid none none;
+  border-width: 3px;
+  border-color: black;
+  */
+}
+
+div {
+  margin: 0;
+  padding: 20px 0px;
+}
+
+.genius {
+  text-decoration: underline;
+}
+
+.aGenius {
+  font-size: 2.5rem;
+}
+
+.topCloud {
+  position: absolute;
+  right: 420px;
+  top: 50px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 375px;
+  bottom: 300px;
+}
+
+.mountain {
+  margin: auto;
+  display: block;
+}
+
+.profile {
+  border-radius: 100%;
+}
+
+.bigBrain {
+  width: 30%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.whitePowder {
+  width: 25%;
+  height: 30%;
+  border-radius: 15%;
+  float: right;
+  margin-left: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 40px auto 10px auto;
+  line-height: 1.75;
+  text-align: left;
+}
+
+.btn {
+  background-color: #406882;
+  padding: 10px 20px;
+  display: block;
+  margin: 30px auto 15px auto;
+  width: 8%;
+}
+
+.btn:hover {
+  background-color: #1A374D;
+  text-decoration: none;
+}
+
+.topContainer {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  background-color: #b8eaff;
+}
+
+.middleContainer {
+  background-color: #6998AB;
+}
+
+.bottomContainer {
+  background-color: #406882;
+}
